@@ -1,0 +1,58 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="icon" href="2.png">
+    <title>Registration Form</title>
+</head>
+<body style="background-color: lightpink;">
+    <center><h1> Registration Form </h1></center>
+    <hr>
+     <center>
+    <form action="save.php" method="post" enctype="multipart/form-data">
+        email: <input type="email" name="email" id="email"
+        placeholder="Enter yor email"><br><br>
+        Name: <input type="text" name="name" id="name" 
+        placeholder="Enter your name"><br><br>
+        Contact Number: <input type="number"  name="nukmber" id="number"
+        placeholder="Enter your number"><br><br>
+        Father's Name: <input type="text" name="name" id="name"
+        placeholder="Enter your Father'S Name"><br><br>
+        Father Contact Number: <input type="number"  name="nukmber" id="number"
+        placeholder="Enter your Father number"><br><br>
+        Mother's Name: <input type="text" name="name" id="name"
+        placeholder="Enter your Father'S Name"><br><br>
+        Mother Contact Number: <input type="number"  name="nukmber" id="number"
+        placeholder="Enter your Mother number"><br><br>
+        Age: <input type="age" name="age" id="age"
+        placeholder="Enter your age"><br><br>
+        gender: <input type="radio" name="gender" value="male">Male
+                <input type="radio" name="gender" value="female">Female<br><br>
+        Current Address: <textarea name="message" id="message" placeholder="Enter yor
+          message here...."></textarea><br><br>
+        Permanent Address: <textarea name="message" id="message" placeholder="Enter yor
+          message here...."></textarea><br><br>
+        Birth Date: <input type="date" name="date" id="date"><br><br>
+        Select Subject:
+         <input type="checkbox" name="Subject" value="HTML">HTML
+         <input type="checkbox" name="Subject" value="CSS">CSS
+         <input type="checkbox" name="Subject" value="JS">JS <br><br>
+         Select Branch:
+        <select>
+            <option value="A">AI&DS</option>
+            <option value="B">ECE</option>
+            <option value="C">CSE</option>
+            <option value="D">CY</option>
+            <option value="E">IT</option>
+        </select><br><br>
+        Upload Image:<input type="file" name="image" id="image"><br><br>
+         <hr>
+        <input type="reset" value="Reset">
+        <input type="Submit" value="Submit">
+        </form>
+        </center>
+        
+    
+</body>
+</html>
